@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-//Nikita Grubelias (26604750) OOP Assessment 1
+// Nikita Grubelias (26604750) OOP Assessment 1
 
 namespace CMP1903M_A01_2223
 {
     class Card
     {
-        //Creates Value and Suit variables
+        // Creates Value and Suit variables
         private int Value;
         private int Suit;
 
@@ -19,7 +19,7 @@ namespace CMP1903M_A01_2223
             this.Value = Value;
             this.Suit = Suit;
         }
-        //Identify function converts two integers into a CardSuit and a Card Value
+        // Identify function converts two integers into a CardSuit and a Card Value
         public string Identify()
         {
             string CardSuit = "";
@@ -66,9 +66,9 @@ namespace CMP1903M_A01_2223
                     break;
                 }
             }
-            //Adds the two strings together making it into one large string for the whole card
+            // Adds the two strings together making it into one large string for the whole card
             CardValue += CardSuit;
-            //Outputs the card
+            // Outputs the card
             return CardValue;
         }
     }
